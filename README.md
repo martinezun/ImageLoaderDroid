@@ -7,7 +7,7 @@ It uses **HttpClient** to load image from remote server and **AsyncTask** to do 
 
 Example usage:
 
-``java
+```java
 private void loadImage(String url) {
 	button.setVisibility(View.GONE);
 	progressBar.setVisibility(View.VISIBLE);
@@ -29,4 +29,4 @@ private void loadImage(String url) {
 		}
 	});
 }
-``
+```
