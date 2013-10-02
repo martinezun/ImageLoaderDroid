@@ -1,7 +1,9 @@
 ImageLoaderDroid
 ================
 
-Android Library to load image from URL
+Android Library to load image from URL  
+
+It uses **HttpClient** to load image from remote server and **AsyncTask** to do it asynchronously.
 
 Example usage:
 
